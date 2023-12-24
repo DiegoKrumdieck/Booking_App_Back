@@ -1,4 +1,4 @@
-package com.booking.booking.application.controller;
+package com.booking.booking.controller;
 
 import java.util.UUID;
 
@@ -13,6 +13,6 @@ public class ResourceController {
 
     @GetMapping("/test")
     public String test() {
-        return "Hello world!";
+        return "Hello world! test";
     }
 }
